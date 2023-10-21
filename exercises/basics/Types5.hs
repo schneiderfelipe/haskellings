@@ -1,7 +1,5 @@
 module Types5 where
 
--- I AM NOT DONE
-
 {-
 - A "String" is actually the same as a "list of characters".
 
@@ -16,10 +14,8 @@ charList = "This is strange"
 aString :: String
 aString = ['H', 'e', 'l', 'l', 'o']
 
--- TODO: Fill in these expressions, trying both kinds of definition
---       and both type signatures on each expression.
-charList2 :: [Char]
-charList2 = ???
+charList2 :: String
+charList2 = "Hey"
 
-string2 :: String
-string2 = ???
+string2 :: [Char]
+string2 = ['H', 'o', 'w']

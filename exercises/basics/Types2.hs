@@ -1,7 +1,5 @@
 module Types2 where
 
--- I AM NOT DONE
-
 {-
 - There are other basic types that aren't numeric!
 
@@ -21,13 +19,11 @@ char1 = 'b'
 string1 :: String
 string1 = "Foobar"
 
--- TODO: Fill in either the values or type signatures.
-
-bool2 :: ???
+bool2 :: Bool
 bool2 = False
 
 char2 :: Char
-char2 = ???
+char2 = 'f'
 
 helloWorld :: String
-helloWorld = ???
+helloWorld = "felipe"
